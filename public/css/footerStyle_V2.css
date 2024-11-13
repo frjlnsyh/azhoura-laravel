@@ -1,0 +1,44 @@
+#instagram {
+    color: #f46f30;
+}
+#email {
+
+}
+#whatsapp {
+    color: #25d366;
+
+}
+#facebook {
+    color: #3b5998;
+}
+.footerUpper {
+    background-color:#FFC47E;
+    padding: 0;
+    color: black;
+    
+}
+.footerUpper .row a i{
+    font-size: 40px;
+}
+
+@media (min-width:768px) {
+    .footerUpper .row a i{
+        font-size: 35px;
+    }
+}
+@media (min-width:1024px) {
+    .footerUpper .row ul li{
+        font-size: 25px;
+    }
+}
+@media (min-width:1440px) {
+    .footerUpper .row a i{
+        font-size: 40px;
+    }
+}
+
+.footerUpper .source {
+    padding: 0.3rem;
+    background-color: #14224F;
+    color:#FFC47E ;
+}

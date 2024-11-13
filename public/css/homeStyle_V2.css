@@ -1,0 +1,455 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Averia+Serif+Libre:wght@300&family=Fugaz+One&family=Shrikhand&family=Tilt+Neon&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+h2 {
+    font-family: 'Agbalumo';
+}
+h3 {
+    font-family: 'Agbalumo';
+}
+h4 {
+    font-family: 'Fugaz One';
+}
+#harga {
+    font-family: 'Tilt Neon';
+}
+h5 {
+    font-family:Arial;
+}
+h6 {
+    font-family: 'Tilt Neon';
+}
+#size {
+    font-family: Arial;
+}
+p {
+    font-family: 'Averia Serif Libre'
+}
+/* font css */
+@media (max-width:767px) {
+    body h2 {
+        font-weight: 700;
+        font-size: 25px;
+    }
+    body h4 {
+        font-size: 20px;
+    }
+    body h5 {
+        font-size: 16px;
+    }
+    body h6 {
+        font-size: 14px;
+    }
+    body p {
+        font-size: 12px;
+    }
+    #size {
+        font-size: 12px;
+    }
+}
+@media (min-width:768px){
+    body h2 {
+        font-size: 40px;
+    }
+    body h4 {
+        font-size: 20px;
+    }
+    body h5 {
+        font-size: 16px;
+    }
+    body h6 {
+        font-size: 14px;
+    }
+    body p {
+        font-size: 14px;
+    }
+    #size {
+        font-size: 13px;
+    }
+}
+/* --------------------------------------------------------------------- */
+.page video {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+.page .logo {
+    width: 60%;
+    top: 10px;
+    left: 16px;
+}
+.page .caption-img {
+    font-family: 'Fugaz One';
+    color:white;
+    width: 80%;
+    bottom:10px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.container-fluid {
+    padding: 0;
+    overflow: hidden;
+}
+
+#h-11 img { 
+    width: 100%;
+    height: 80vh;
+    object-fit: cover;
+}
+.h-2 .carousel-caption {
+    text-align: start;
+}
+.h-2 {
+    display: none;
+}
+@media (min-width:768px) {
+    #h-22 img { 
+        width: 100%;
+        height: 100%;
+        object-fit:contain;
+    }
+    .h-1 {
+        display: none;
+    }
+    .h-2 {
+        display: unset;
+    }
+}
+@media (min-width:1024px) {
+}
+@media (min-width:1440px) {
+}
+
+/* =--------------------- Official Store --------------  */
+.wrapper {
+    background-color: white;
+    margin-top: -4px;
+}
+#store-home-maps iframe {
+    width:90%;
+    height: 30vh;
+}
+@media (min-width:768px) {
+    #store-home-maps iframe {
+        height: 15rem;
+    }
+}
+@media (min-width:1024px) {
+    #store-home-maps iframe {
+        max-height: 15rem;
+    }
+}
+@media (min-width:1440px) {
+    #store-home-maps iframe {
+        max-height: 15rem;
+    }
+}
+
+/* ------------------tittleStore------------ */
+#toko-home-button a{
+    color: #FFC47E;
+    border: 2px solid #FFC47E;
+}
+#toko-home-button a:hover{
+    color: #14224F;
+    background-color:#FFC47E ;
+}
+@media (min-width:768px) {
+}
+@media (min-width:1024px) {
+}
+@media (min-width:1440px) {
+}
+/* ------------------ About Us----------------- */
+#about-us {
+    text-align: center;
+}
+#about-menu a{
+    color: white;
+    text-decoration: none;
+}
+#about-menu img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+@media (min-width:768px) { 
+    #about-menu img {
+        width: 120px;
+        height: 120px;
+        object-fit: cover;
+        border-radius: 15px;
+    }
+}
+@media (min-width:1024px) { 
+    #about-menu img {
+        width: 160px;
+        height: 160px;
+        object-fit: cover;
+        border-radius: 15px;
+    }
+}
+@media (min-width:1440px) { 
+    #about-menu img {
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 15px;
+    }
+}
+/* -------------------- Produk ------------ */
+#product {
+    text-align: center;
+}
+#product a {
+    color: black;
+    text-decoration: none;
+    font-size: 13px;
+}
+#product .btn {
+    border:2px solid #14224F;
+}
+#product .btn:hover {
+    background-color: #14224F;
+    color: #FFC47E;
+}
+#product .row {
+    justify-content: center;
+}
+#tittleProduct {
+    text-align: center;
+}
+#product .card {
+    padding: 0;
+    margin: 1rem;
+    width: 14rem;
+}
+#product .card:hover {
+    width: 15rem;
+    transition: 0.3s;
+}
+#product .card .card-body h6{
+    margin-bottom: 1rem;
+}
+@media (min-width:768px) {
+    #tittleProduct {
+        text-align: center;
+    }
+    #product .card {
+        margin-bottom: 1.5rem;
+        padding: 0;
+    }
+    #product .card {
+        width: 12rem;
+    }
+    #product .card:hover {
+        width: 13rem;
+        transition: 0.3s;
+    }
+}
+@media (min-width:1024px) {
+    #product .card {
+        margin-bottom: 1.5rem;
+        padding: 0;
+    }
+    #product .card {
+        width: 13rem;
+    }
+    #product .card:hover {
+        width: 12.5rem;
+        transition: 0.3s;
+    }
+}
+@media (min-width:1440px) {
+    #product .card {
+        margin-bottom: 1.5rem;
+        padding: 0;
+    }
+    #product .card {
+        width: 16rem;
+    }
+    #product .card:hover {
+        width: 17rem;
+        transition: 0.3s;
+    }
+}
+
+/* -----------------Media----------- */
+#media #media-video {
+    text-align: center;
+} 
+#media #media-video iframe {
+    width:100%;
+    height: 15rem;
+}
+#menuMedia {
+    text-align: center; 
+    border-radius: 10px;
+} 
+#menu-media a {
+    color: black;
+    text-decoration: none;
+}
+#menuMedia img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+#medsos-media a {
+    color: white;
+    text-decoration: none;
+}
+@media (min-width:768px) {
+    #media #media-video iframe {
+        height: 15rem;
+    }
+    #menu-media a {
+        color: black;
+        text-decoration: none;
+    }
+}
+@media (min-width:1024px) {
+    #media #media-video iframe {
+        height: 15rem;
+    }
+    #menu-media a {
+        color: black;
+        text-decoration: none;
+    }
+}
+@media (min-width:1440px) {
+    #media #media-video iframe {
+        height: 15rem;
+    }
+}
+
+
+/* -------------------Tittle Seller ------------ */
+.card .btn {
+    color:#FFC47E;
+    border:2px solid #FFC47E;
+}
+.card .btn:hover {
+    background-color: #FFC47E;
+    color:#14224F;
+}
+@media (max-width:767px) {
+    #seller iframe {
+        width:100% ;
+        height: 10rem;
+    }
+    #tittleSeller {
+        text-align: center;
+    }
+    #optionSeller img{
+        max-width: 30%;
+        aspect-ratio: 1/1;
+        object-fit: cover;
+    }
+    #optionSeller .btn {
+        border:2px solid #14224F;
+    }
+    #optionSeller .btn:hover {
+        background-color: #14224F;
+        color: #FFC47E;
+    }
+}
+@media (min-width:768px) { 
+    #optionSeller img{
+        max-width: 100px;
+    } 
+}
+@media (min-width:1024px) {
+}
+@media (min-width:1440px) {
+}
+/* -------------------- Page Produk --------- */
+#page-product .btn {
+    font-weight: 600;
+    color: #FFC47E;
+    border:2px solid #FFC47E;
+}
+#page-product .btn:hover {
+    background-color: #FFC47E;
+    color: #14224F;
+}
+#page-product img {
+    max-width: 250px;
+    padding: 0;
+    border-radius: 10px;
+}
+#page-1 button {
+    font-size: 11px;
+}
+.detailPage {
+    padding-bottom: 2rem;
+}
+.detailPage ul li{
+    font-size: 12px;
+}
+.detailPage ul li button {
+    color: white;
+}
+.detailPage .tab-content {
+    font-size: 11px;
+}
+@media (min-width:768px) {
+    #page-product img {
+        max-width: 240px;
+        max-height: 240px;
+    }
+}
+@media (min-width:1024px) {
+    #pg-produk-menu {
+        max-width: 40rem;
+    }
+    #page-product img {
+        max-width: 300px;
+        max-height: 300px;
+    }
+    #page-product #kotak-page-product {
+        height: 25rem;
+    }
+    #page-1 button {
+        font-size: 13px;
+    }
+    .detailPage ul li{
+        font-size: 13px;
+    }
+    .detailPage .tab-content {
+        font-size: 12px;
+    }
+    
+}
+@media (min-width:1440px) {
+    #pg-produk-menu {
+        max-width: 50rem;
+    }
+    #page-1 button {
+        font-size: 13px;
+    }
+    .detailPage ul li{
+        font-size: 13px;
+    }
+    .detailPage .tab-content {
+        font-size: 12px;
+    }
+}
+.modal a {
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+}
+.modal a img {
+    width: 80px;
+    aspect-ratio:1/1;
+}
+
+@media (min-width:768px) {
+    .modal a img {
+        width: 100px;
+    }}

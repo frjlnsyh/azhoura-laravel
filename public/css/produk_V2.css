@@ -1,0 +1,170 @@
+/* ------------------------- Bundling SELLER ---------------------------------- */
+#b-11 a {
+    font-size: 13px;
+    text-decoration: none;
+    color: #14224F;
+}
+#b-11 .card {
+    border-radius: 50px 10px 50px 10px;
+    width: 11rem;
+}
+#b-11 .card:hover {
+    width: 12rem;
+    transition: 0.3s;
+}
+#b-11 .card img {
+    width: 100%;
+    object-fit:fill;
+}
+#b-11 #c-btn-1 {
+    font-weight: 600;
+    background-color: #FFC47E;
+    color: #14224F;
+}
+#b-11 #c-btn-1:hover {
+    background-color: #14224F;
+    color: #FFC47E;
+}
+#b-11 #cc-btn-1 a{
+    color: #14224F;
+    font-weight: 600;
+    border: 2px solid #14224F;
+}
+#b-11 #cc-btn-1 a:hover{
+    background-color: #14224F;
+    color: #FFC47E;
+}
+@media (min-width:768px){
+    #j-11 {
+        max-width: 50rem;
+    }
+    #b-11 .carousel-control-prev {
+        display: none;
+    }
+    #b-11 .carousel-control-next {
+        display: none;
+    }
+    #b-11 .carousel-inner {
+        display: flex;
+    }
+    #b-11 .carousel-item {
+        margin: 0;
+        display: block;
+    }
+    #b-11 .card {
+        width: 10rem
+    }
+    #b-11 .card:hover {
+        width: 10.5rem;
+        transition: 0.3s;
+    }
+}
+@media (min-width:1024px){
+    #j-11 {
+        max-width: 70rem;
+    }
+    #b-11 .card {
+        width: 13rem;
+    }
+    #b-11 .card:hover {
+        width: 13rem;
+        transition: 0.3s;
+    }
+}
+@media (min-width:1440px){
+    #j-11 {
+        max-width: 80rem;
+    }
+    #b-11 .card {
+        width: 16rem;
+    }
+    #b-11 .card:hover {
+        width: 17rem;
+        transition: 0.3s;
+    }
+}
+/* ------------------------- Produk SELLER ---------------------------------- */
+#t-11 a {
+    font-size: 13px;
+    text-decoration: none;
+    color: black;
+}
+#t-11 .card {
+    width: 11rem;
+    border-radius: 10px 50px 10px 50px;
+}
+#t-11 .card:hover {
+    width: 12rem;
+    transition: 0.3s;
+}
+#t-11 .card img {
+    width: 100%;
+    object-fit:fill;
+}
+#t-11 #c-btn-2 {
+    font-weight: 600;
+    background-color: #14224F;
+    color: #FFC47E;
+}
+#t-11 #c-btn-2:hover {
+    background-color: #FFC47E;
+    color: #14224F;
+}
+#t-11 #cc-btn-2 .btn{
+    color: #FFC47E;
+    font-weight: 600;
+    border: 2px solid #FFC47E;
+}
+#t-11 #cc-btn-2 .btn:hover{
+    background-color: #FFC47E;
+    color: #14224F;
+}
+@media (min-width:768px){
+    #j-22 {
+        max-width: 50rem;
+    }
+    #t-11 .carousel-control-prev {
+        display: none;
+    }
+    #t-11 .carousel-control-next {
+        display: none;
+    }
+    #t-11 .carousel-inner {
+        display: flex;
+    }
+    #t-11 .carousel-item {
+        margin: 0;
+        display: block;
+    }
+    #t-11 .card {
+        width: 10rem
+    }
+    #t-11 .card:hover {
+        width: 10.5rem;
+        transition: 0.3s;
+    }
+}
+@media (min-width:1024px){
+    #j-22 {
+        max-width: 70rem;
+    }
+    #t-11 .card {
+        width: 13rem;
+    }
+    #t-11 .card:hover {
+        width: 13rem;
+        transition: 0.3s;
+    }
+}
+@media (min-width:1440px){
+    #j-22 {
+        max-width: 80rem;
+    }
+    #t-11 .card {
+        width: 16rem;
+    }
+    #t-11 .card:hover {
+        width: 17rem;
+        transition: 0.3s;
+    }
+}
